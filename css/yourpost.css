@@ -1,0 +1,171 @@
+body{
+	background-color: #F5F7FF;
+}
+
+.page-details{
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.page-details p{
+	color: #D3C4F2;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.page-details b{
+	color: #57719C;
+	font-weight: 500;
+}
+
+.page-title{
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.page-title h1{
+	font-size: 24px;
+	color: #57719C;
+	font-weight: 600;
+}
+
+.page-title p{
+	margin-top: 8px;
+	color: #969BAB;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  .page-title p {
+    width: 380px;
+  }
+}
+
+.page-btn-holder{
+	margin-top: 30px;
+	margin-left: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+.page-btn-holder button{
+	margin-right: 24px;
+	color: #969BAB;
+	width: 240px;
+	height: 52px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	padding: 14px 16px;
+	background: #F5F7FF;
+	border: 1px solid #57719C;
+	border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .page-btn-holder{
+  	flex-direction: column-reverse;
+  	margin-top: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-btn-holder button{
+  	margin-bottom: 24px;
+  }
+}
+
+.upload-content{
+	background-color: #fff;
+	width: 80%;
+	border-radius: 16px;
+	margin-left: 10%;
+	margin-top: 34px;
+}
+
+.upload-content p{
+	margin-top: 24px;
+	margin-left: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #57719C;
+	width: 101px;
+	height: 22px;
+	line-height: 22px;
+}
+
+.image-one{
+	margin-top: 16px;
+	margin-left: -150px;
+}
+
+.image-two{
+	margin-top: 54px;
+	margin-left: -19%;
+}
+
+@media (max-width: 1800px) {
+  .image-two{
+  	margin-left: -25%;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-two{
+  	margin-left: 5%;
+  }
+}
+
+.your-post{
+	background-color: #fff;
+	width: 80%;
+	border-radius: 16px;
+	margin-left: 10%;
+	margin-top: 34px;
+}
+
+.your-post p{
+	font-weight: 400;
+	color: #57719C;
+	font-size: 16px;
+	margin-top: 24px;
+	margin-left: 30px;
+}
+
+.your-post input{
+	border: none;
+	width: 385%;
+	margin-left: 30px;
+	margin-bottom: 24px;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 12px 20px;
+	gap: 10px;
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 1;
+	background: #FFFFFF;
+	background-color: #F5F7FF;
+	border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+  .your-post input{
+  	width: 115%;
+  }
+}
+
+.content-btn{
+	margin-top: 34px;
+	margin-left: -20%;
+}
+
+@media (max-width: 600px) {
+  .content-btn{
+  	margin-left: 0%;
+  }
+}
